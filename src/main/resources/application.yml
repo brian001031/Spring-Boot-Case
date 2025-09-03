@@ -12,6 +12,10 @@ info:
     name: Brian
     depart: "RD/SI PART"
 
+  group:
+   project:caseBycase
+   status:difficulty
+
   project:
     groupid: "@project.groupId@"
     artifactid: "@project.artifactId@"
