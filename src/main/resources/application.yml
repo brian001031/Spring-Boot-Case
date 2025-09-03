@@ -1,0 +1,34 @@
+server:
+  port: 9090
+#  servlet:
+#    context-path: /main
+info:
+  company:
+    name: Lebron James23
+    url: http://www.fetch_soring_boot.com
+    address: New Taipei City
+
+  author:
+    name: Brian
+    depart: "RD/SI PART"
+
+  project:
+    groupid: "@project.groupId@"
+    artifactid: "@project.artifactId@"
+
+
+management:
+    endpoints:
+      web:
+        base-path: /actuator
+        exposure:
+          include: info,health
+    info:
+      env:
+        enabled: true
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/mydb
+

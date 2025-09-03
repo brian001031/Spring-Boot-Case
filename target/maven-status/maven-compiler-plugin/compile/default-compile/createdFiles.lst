@@ -1,0 +1,8 @@
+com\suntask\demo\repository\MixinanodeRepository.class
+com\suntask\demo\model\Mixinanode.class
+com\suntask\demo\ServletInitializer.class
+com\suntask\demo\controller\MixinanodeController.class
+com\suntask\demo\controller\DynamicCollectionController.class
+com\suntask\demo\controller\MajorController.class
+com\suntask\demo\CloneStreamApplication.class
+com\suntask\demo\controller\InfoController.class
